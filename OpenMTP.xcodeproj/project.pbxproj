@@ -196,6 +196,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = xmrdance;
 				TargetAttributes = {
 					94ECD95F2645239200811A70 = {
 						CreatedOnToolsVersion = 12.5;
@@ -210,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 94ECD95B2645239200811A70 /* Build configuration list for PBXProject "MTP" */;
+			buildConfigurationList = 94ECD95B2645239200811A70 /* Build configuration list for PBXProject "OpenMTP" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -419,6 +420,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MTP/MTP.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"MTP/Preview Content\"";
@@ -431,7 +433,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.monerodance.OpenMTP.MTP;
+				PRODUCT_BUNDLE_IDENTIFIER = maccatalyst.dev.xmrdance.castle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -443,6 +445,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MTP/MTP.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"MTP/Preview Content\"";
@@ -455,7 +458,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.monerodance.OpenMTP.MTP;
+				PRODUCT_BUNDLE_IDENTIFIER = maccatalyst.dev.xmrdance.castle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -548,7 +551,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		94ECD95B2645239200811A70 /* Build configuration list for PBXProject "MTP" */ = {
+		94ECD95B2645239200811A70 /* Build configuration list for PBXProject "OpenMTP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94ECD9842645239400811A70 /* Debug */,
